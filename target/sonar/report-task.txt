@@ -3,5 +3,5 @@ projectKey=PG-Software-Engineering-I-2021-2_practica-calificada-1-juancarloscruz
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.24170
 dashboardUrl=https://sonarcloud.io/dashboard?id=PG-Software-Engineering-I-2021-2_practica-calificada-1-juancarloscruzd
-ceTaskId=AXyvzBwYIZPNNyoQwHp5
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXyvzBwYIZPNNyoQwHp5
+ceTaskId=AXyv4PUFyB3ztYSCpQkW
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXyv4PUFyB3ztYSCpQkW

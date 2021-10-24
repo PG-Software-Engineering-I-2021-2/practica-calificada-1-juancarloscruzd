@@ -6,9 +6,18 @@ import org.junit.Test;
 public class OliverTest {
 
     @Test
+    public void searchShouldReturnZeroBook(){
+        Oliver oliver = Oliver.getInstance();
+        oliver.registerOffer("Computer Science", "Summer");
+        oliver.registerStudent("Juan");
+
+        Assert.assertEquals(0, oliver.search("Shakespeare").size());
+    }
+
+    @Test
     public void searchShouldReturnOneBook(){
         Oliver oliver = Oliver.getInstance();
-        oliver.registerBook("Algotihms", 1974, "Cormen", 10 );
+        oliver.registerBook("Algotihms II", 1974, "Cormen", 10 );
         oliver.registerOffer("Computer Science", "Summer");
         oliver.registerStudent("Juan");
 
@@ -18,11 +27,10 @@ public class OliverTest {
     @Test
     public void searchShouldReturnThreeBooks(){
         Oliver oliver = Oliver.getInstance();
-        oliver.registerBook("Algotihms II", 1974, "Cormen", 10 );
         oliver.registerBook("Algotihms III", 1974, "Cormen", 10 );
         oliver.registerOffer("Computer Science", "Summer");
         oliver.registerStudent("Juan");
 
-        Assert.assertEquals(3, oliver.search("Cormen").size());
+        Assert.assertEquals(2, oliver.search("Cormen").size());
     }
 }

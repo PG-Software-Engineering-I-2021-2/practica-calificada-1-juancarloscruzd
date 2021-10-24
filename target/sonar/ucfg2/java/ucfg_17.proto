@@ -1,16 +1,30 @@
 
-'app.Student#getName()Ljava/lang/String;“
-ˆ/Users/Juan_Cruz/Projects/_clases/utec/2021-II/software-engineering/practica-calificada-1-juancarloscruzd/src/main/java/app/Student.java ("1*¡
+\app.Student#subscribeStock(Lapp/Book;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;“
+ˆ/Users/Juan_Cruz/Projects/_clases/utec/2021-II/software-engineering/practica-calificada-1-juancarloscruzd/src/main/java/app/Student.java ( "1*•
 1“
-ˆ/Users/Juan_Cruz/Projects/_clases/utec/2021-II/software-engineering/practica-calificada-1-juancarloscruzd/src/main/java/app/Student.java (Ò
-Ï
-“
-ˆ/Users/Juan_Cruz/Projects/_clases/utec/2021-II/software-engineering/practica-calificada-1-juancarloscruzd/src/main/java/app/Student.java (
-%0java.lang.String"__id**
-app.Student"
-name"°
-“
-ˆ/Users/Juan_Cruz/Projects/_clases/utec/2021-II/software-engineering/practica-calificada-1-juancarloscruzd/src/main/java/app/Student.java (
+ˆ/Users/Juan_Cruz/Projects/_clases/utec/2021-II/software-engineering/practica-calificada-1-juancarloscruzd/src/main/java/app/Student.java (÷ô
+”
+ˆ/Users/Juan_Cruz/Projects/_clases/utec/2021-II/software-engineering/practica-calificada-1-juancarloscruzd/src/main/java/app/Student.javax (†
+%0java.lang.String"$app.Book#getName()Ljava/lang/String;*
+
+bookapp.Book2	getName()Ë
+È
+”
+ˆ/Users/Juan_Cruz/Projects/_clases/utec/2021-II/software-engineering/practica-calificada-1-juancarloscruzd/src/main/java/app/Student.java (•
+%1java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*[Y
+WThe student will be notified when %s will be available to the email %s and the phone %s*
 
-%0java.lang.StringB
+%0java.lang.String*
+
+emailjava.lang.String*
+
+phonejava.lang.String"±
+”
+ˆ/Users/Juan_Cruz/Projects/_clases/utec/2021-II/software-engineering/practica-calificada-1-juancarloscruzd/src/main/java/app/Student.java (–
+
+%1java.lang.String:
+bookapp.Book:
+emailjava.lang.String:
+phonejava.lang.StringB
 app.Student

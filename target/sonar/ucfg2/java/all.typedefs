@@ -28,22 +28,21 @@ R<init>(Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/Intege
 
 getStock()&app.Book#getStock()Ljava/lang/Integer;5
 getAuthor()&app.Book#getAuthor()Ljava/lang/String;2
-	getYear()%app.Book#getYear()Ljava/lang/Integer;ß
+	getYear()%app.Book#getYear()Ljava/lang/Integer;’
 
-app.Oliverjava.lang.Object 
+app.Oliverjava.lang.Object1
+health()%app.Oliver#health()Ljava/lang/String; 
 <init>()app.Oliver#<init>()V5
 getInstance()$app.Oliver#getInstance()Lapp/Oliver;S
 search(Ljava/lang/String;)5app.Oliver#search(Ljava/lang/String;)Ljava/util/List;V
 #registerStudent(Ljava/lang/String;)/app.Oliver#registerStudent(Ljava/lang/String;)Vv
 3registerOffer(Ljava/lang/String;Ljava/lang/String;)?app.Oliver#registerOffer(Ljava/lang/String;Ljava/lang/String;)VÀ
-XregisterBook(Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/Integer;)dapp.Oliver#registerBook(Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/Integer;)V¶
+XregisterBook(Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/Integer;)dapp.Oliver#registerBook(Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/Integer;)V—
 app.Studentjava.lang.ObjectX
 subscribeOffer(Lapp/Offer;)9app.Student#subscribeOffer(Lapp/Offer;)Ljava/lang/String;4
-	getName()'app.Student#getName()Ljava/lang/String;[
-%setLogger(Ljava/util/logging/Logger;)2app.Student#setLogger(Ljava/util/logging/Logger;)Vž
+	getName()'app.Student#getName()Ljava/lang/String;ž
 >subscribeStock(Lapp/Book;Ljava/lang/String;Ljava/lang/String;)\app.Student#subscribeStock(Lapp/Book;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;E
-<init>(Ljava/lang/String;)'app.Student#<init>(Ljava/lang/String;)V@
-getLogger()1app.Student#getLogger()Ljava/util/logging/Logger;Ö
+<init>(Ljava/lang/String;)'app.Student#<init>(Ljava/lang/String;)VÖ
 java.lang.Iterablejava.lang.Objectd
 &forEach(Ljava/util/function/Consumer;):java.lang.Iterable#forEach(Ljava/util/function/Consumer;)VH
 spliterator()7java.lang.Iterable#spliterator()Ljava/util/Spliterator;Œ

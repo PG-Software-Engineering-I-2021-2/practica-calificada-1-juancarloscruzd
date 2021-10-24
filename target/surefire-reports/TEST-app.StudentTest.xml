@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="app.StudentTest" time="0.016" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="app.StudentTest" time="0.012" errors="0" skipped="0">
   <properties>
     <property name="java.vendor" value="AdoptOpenJDK"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
@@ -83,6 +83,7 @@ JCL      - 95bb504fbb based on jdk-11.0.8+10"/>
     <property name="java.vendor.version" value="AdoptOpenJDK"/>
     <property name="sonar.projectKey" value="PG-Software-Engineering-I-2021-2_practica-calificada-1-juancarloscruzd"/>
   </properties>
-  <testcase classname="app.StudentTest" name="shouldNotifyOffers" time="0.015"/>
+  <testcase classname="app.StudentTest" name="userRegister" time="0.01"/>
+  <testcase classname="app.StudentTest" name="shouldNotifyOffers" time="0.001"/>
   <testcase classname="app.StudentTest" name="shouldNotifyBookStock" time="0.001"/>
 </testsuite>

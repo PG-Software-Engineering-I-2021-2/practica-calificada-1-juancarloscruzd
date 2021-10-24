@@ -7,30 +7,21 @@ public class Student {
 
     private final String name;
 
+<span class="fc" id="L10">    public Student(String name) {</span>
+<span class="fc" id="L11">        this.name = name;</span>
 
-<span class="fc" id="L11">    public Student(String name) {</span>
-<span class="fc" id="L12">        this.name = name;</span>
-
-<span class="fc" id="L14">    }</span>
-
-    public static Logger getLogger() {
-<span class="nc" id="L17">        return logger;</span>
-    }
-
-    public static void setLogger(Logger logger) {
-<span class="nc" id="L21">        Student.logger = logger;</span>
-<span class="nc" id="L22">    }</span>
+<span class="fc" id="L13">    }</span>
 
     public String getName() {
-<span class="nc" id="L25">        return name;</span>
+<span class="fc" id="L16">        return name;</span>
     }
 
     public String subscribeStock(Book book, String email, String phone) {
-<span class="fc" id="L29">        return String.format(&quot;The student will be notified when %s will be available to the email %s and the phone %s&quot;, book.getName(), email, phone);</span>
+<span class="fc" id="L20">        return String.format(&quot;The student will be notified when %s will be available to the email %s and the phone %s&quot;, book.getName(), email, phone);</span>
     }
 
     public String subscribeOffer(Offer offer) {
-<span class="fc" id="L33">        return String.format(&quot;Student will be notified when new books about %s arrive&quot;, offer.getTopic());</span>
+<span class="fc" id="L24">        return String.format(&quot;Student will be notified when new books about %s arrive&quot;, offer.getTopic());</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

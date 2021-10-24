@@ -1,59 +1,10 @@
 
-$app.Oliver#getInstance()Lapp/Oliver;’
-‡/Users/Juan_Cruz/Projects/_clases/utec/2021-II/software-engineering/practica-calificada-1-juancarloscruzd/src/main/java/app/Oliver.java ($"3*ò
-2’
-‡/Users/Juan_Cruz/Projects/_clases/utec/2021-II/software-engineering/practica-calificada-1-juancarloscruzd/src/main/java/app/Oliver.java (#¶³
-’
-‡/Users/Juan_Cruz/Projects/_clases/utec/2021-II/software-engineering/practica-calificada-1-juancarloscruzd/src/main/java/app/Oliver.java (!
-%1
-app.Oliver"
-app.OliverÈ
-Å
-’
-‡/Users/Juan_Cruz/Projects/_clases/utec/2021-II/software-engineering/practica-calificada-1-juancarloscruzd/src/main/java/app/Oliver.java (#
-%2"app.Oliver#<init>()V*
-
-%1
-app.OliverÎ
-Ë
-’
-‡/Users/Juan_Cruz/Projects/_clases/utec/2021-II/software-engineering/practica-calificada-1-juancarloscruzd/src/main/java/app/Oliver.java (#
-
-app.Oliver"
-
-instance"__id*
-
-%1
-app.Oliver*
-1*ñ
-3’
-‡/Users/Juan_Cruz/Projects/_clases/utec/2021-II/software-engineering/practica-calificada-1-juancarloscruzd/src/main/java/app/Oliver.java (Î
-Ë
-’
-‡/Users/Juan_Cruz/Projects/_clases/utec/2021-II/software-engineering/practica-calificada-1-juancarloscruzd/src/main/java/app/Oliver.java (
-%0
-app.Oliver"__id**
-
-app.Oliver"
-
-instance*
-2
-1*•
+%app.Oliver#health()Ljava/lang/String;’
+‡/Users/Juan_Cruz/Projects/_clases/utec/2021-II/software-engineering/practica-calificada-1-juancarloscruzd/src/main/java/app/Oliver.java ("1*»
 1’
-‡/Users/Juan_Cruz/Projects/_clases/utec/2021-II/software-engineering/practica-calificada-1-juancarloscruzd/src/main/java/app/Oliver.java (Î
-Ë
+‡/Users/Juan_Cruz/Projects/_clases/utec/2021-II/software-engineering/practica-calificada-1-juancarloscruzd/src/main/java/app/Oliver.java (" 
 ’
-‡/Users/Juan_Cruz/Projects/_clases/utec/2021-II/software-engineering/practica-calificada-1-juancarloscruzd/src/main/java/app/Oliver.java (
-%3
-app.Oliver"__id**
-
-app.Oliver"
-
-instance"©
-’
-‡/Users/Juan_Cruz/Projects/_clases/utec/2021-II/software-engineering/practica-calificada-1-juancarloscruzd/src/main/java/app/Oliver.java (
-
-%3
-app.OliverB"
+‡/Users/Juan_Cruz/Projects/_clases/utec/2021-II/software-engineering/practica-calificada-1-juancarloscruzd/src/main/java/app/Oliver.java (	
+AliveB
 
 app.Oliver

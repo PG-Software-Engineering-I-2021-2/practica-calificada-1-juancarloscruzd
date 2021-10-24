@@ -9,34 +9,38 @@ import java.util.List;
 <span class="fc" id="L9">    private List&lt;Offer&gt; offers = new ArrayList&lt;&gt;();</span>
 <span class="fc" id="L10">    private List&lt;Student&gt; students = new ArrayList&lt;&gt;();</span>
 
+    public String health() {
+<span class="fc" id="L13">        return &quot;Alive&quot;;</span>
+    }
+
     public static Oliver getInstance() {
-<span class="fc bfc" id="L13" title="All 2 branches covered.">        if (instance == null) {</span>
-<span class="fc" id="L14">            instance = new Oliver();</span>
+<span class="fc bfc" id="L17" title="All 2 branches covered.">        if (instance == null) {</span>
+<span class="fc" id="L18">            instance = new Oliver();</span>
         }
 
-<span class="fc" id="L17">        return instance;</span>
+<span class="fc" id="L21">        return instance;</span>
     }
 
     public void registerStudent(String name) {
-<span class="fc" id="L21">        students.add(new Student(name));</span>
-<span class="fc" id="L22">    }</span>
-
-    public void registerBook(String name, Integer year, String author, Integer stock) {
-<span class="fc" id="L25">        books.add(new Book(name, year, author, stock));</span>
+<span class="fc" id="L25">        students.add(new Student(name));</span>
 <span class="fc" id="L26">    }</span>
 
-    public void registerOffer(String topic, String season) {
-<span class="fc" id="L29">        offers.add(new Offer(topic, season));</span>
+    public void registerBook(String name, Integer year, String author, Integer stock) {
+<span class="fc" id="L29">        books.add(new Book(name, year, author, stock));</span>
 <span class="fc" id="L30">    }</span>
 
+    public void registerOffer(String topic, String season) {
+<span class="fc" id="L33">        offers.add(new Offer(topic, season));</span>
+<span class="fc" id="L34">    }</span>
+
     public List&lt;Book&gt; search(String searchTerm) {
-<span class="fc" id="L33">        List&lt;Book&gt; result = new ArrayList&lt;&gt;();</span>
-<span class="fc bfc" id="L34" title="All 2 branches covered.">        for (Book book : books) {</span>
-<span class="pc bpc" id="L35" title="2 of 4 branches missed.">            if (book.getName().equals(searchTerm) || book.getAuthor().equals(searchTerm)) {</span>
-<span class="fc" id="L36">                result.add(book);</span>
+<span class="fc" id="L37">        List&lt;Book&gt; result = new ArrayList&lt;&gt;();</span>
+<span class="fc bfc" id="L38" title="All 2 branches covered.">        for (Book book : books) {</span>
+<span class="pc bpc" id="L39" title="1 of 4 branches missed.">            if (book.getName().equals(searchTerm) || book.getAuthor().equals(searchTerm)) {</span>
+<span class="fc" id="L40">                result.add(book);</span>
             }
-<span class="fc" id="L38">        }</span>
-<span class="fc" id="L39">        return  result;</span>
+<span class="fc" id="L42">        }</span>
+<span class="fc" id="L43">        return  result;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

@@ -9,6 +9,10 @@ public class Oliver {
     private List<Offer> offers = new ArrayList<>();
     private List<Student> students = new ArrayList<>();
 
+    public String health() {
+        return "Alive";
+    }
+
     public static Oliver getInstance() {
         if (instance == null) {
             instance = new Oliver();

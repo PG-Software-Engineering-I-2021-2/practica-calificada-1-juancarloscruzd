@@ -7,18 +7,9 @@ public class Student {
 
     private final String name;
 
-
     public Student(String name) {
         this.name = name;
 
-    }
-
-    public static Logger getLogger() {
-        return logger;
-    }
-
-    public static void setLogger(Logger logger) {
-        Student.logger = logger;
     }
 
     public String getName() {

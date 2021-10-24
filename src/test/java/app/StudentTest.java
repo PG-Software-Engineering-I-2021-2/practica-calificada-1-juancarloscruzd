@@ -22,4 +22,10 @@ public class StudentTest {
                 "Student will be notified when new books about Computer Science arrive",
                 student.subscribeOffer(offer));
     }
+
+    @Test
+    public void userRegister() {
+        Student student = new Student("pepe");
+        Assert.assertEquals("pepe", student.getName());
+    }
 }
